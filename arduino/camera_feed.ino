@@ -1,6 +1,3 @@
-//Face Tracker using OpenCV and Arduino
-//by Shubham Santosh
-
 #include<Servo.h>
 
 Servo x, y;
