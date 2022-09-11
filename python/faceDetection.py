@@ -3,7 +3,7 @@ import serial
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 capture = cv2.VideoCapture(0)
-arduino_serial = serial.Serial('COM3', 9600, timeout=0.1)
+arduino_serial = serial.Serial('COM1', 9600, timeout=0.1)
 
 while capture.isOpened():
     _, frame = capture.read()
