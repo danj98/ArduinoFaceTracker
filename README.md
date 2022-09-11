@@ -5,7 +5,7 @@ This is a simple project using facial recognition, an arduino and a web camera t
 [OpenCV](https://github.com/opencv/opencv) for Python. The coordinates from the detection gets fed into an arduino where
 it gets translated to motor-controls, pointing the camera at the face.
 
-![pic](https://github.com/danj98/ArduinoFaceTracker/blob/master/resources/prototype.jpg =300x400)
+<img src="https://github.com/danj98/ArduinoFaceTracker/blob/master/resources/prototype.jpg)" width="300" height="400>
 
 ## Dependencies:
 * [Pyserial](https://pypi.org/project/pyserial/)
@@ -17,4 +17,5 @@ it gets translated to motor-controls, pointing the camera at the face.
 - [ ] Integrate laser module to blind guests (???)
 
 ## Arduino schematics:
+                                                                                                                 <img src="https://github.com/danj98/ArduinoFaceTracker/blob/master/resources/diagram.png" width="300" height="300>
 ![schem_img](https://github.com/danj98/ArduinoFaceTracker/blob/master/resources/diagram.png =400x400)
