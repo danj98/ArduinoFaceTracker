@@ -23,8 +23,7 @@ void loop() {
       if (Serial.read() == 'Y')
         y_mid = Serial.parseInt(); // read center y-coordinate
     }
-    /* adjust the servo within the squared region if the coordinates
-        is outside it
+    /* adjust the servo within the squared region if the coordinates are outside it
     */
     if (x_mid > width / 2 + 30)
       xpos -= angle;
